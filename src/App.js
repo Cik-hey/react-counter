@@ -1,11 +1,10 @@
 import './App.css';
-import CounterGroup from "./features/counter/CounterGroup";
+import MultipleCounter from "./features/counter/MultipleCounter";
 
 function App() {
-  const size = 10;
   return (
     <div className="App">
-      <CounterGroup sizeNumber = {size}/>
+      <MultipleCounter />
     </div>
   );
 }
